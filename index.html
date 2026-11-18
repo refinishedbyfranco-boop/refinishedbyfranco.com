@@ -71,9 +71,13 @@
   .slogan{font-family:"Lora",serif;font-style:italic;font-size:21px;color:var(--walnut);margin-top:8px}
   @media (prefers-color-scheme: dark){ .slogan{color:#D9C08A} }
   .verse{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:6px;font-weight:700}
+  .serving{display:inline-flex;align-items:center;gap:8px;font-family:"Source Sans 3",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-weight:700;font-size:15px;color:#000000;margin:14px 0 0;background:#FFFFFF;border:1px solid var(--line);border-radius:999px;padding:8px 14px;box-shadow:var(--shadow);line-height:1.35;max-width:100%}
+  .serving::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold);flex:0 0 auto}
+  .booking{display:inline-flex;align-items:center;gap:8px;font-family:"Source Sans 3",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-weight:700;font-size:15px;color:#000000;margin:8px 0 0;background:#FFFFFF;border:1px solid var(--line);border-radius:999px;padding:8px 14px;box-shadow:var(--shadow);line-height:1.35;max-width:100%}
+  .booking::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold);flex:0 0 auto}
   .hero p.lede{font-size:18px;color:var(--muted);margin:14px 0 0;max-width:52ch}
   .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
-  .badge{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 12px;font-size:14px;font-weight:600}
+  .badge{display:inline-flex;align-items:center;gap:8px;background:#FFFFFF;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-family:"Source Sans 3",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:15px;font-weight:700;color:#000000;line-height:1.35;box-shadow:var(--shadow)}
   .badge-dot{width:8px;height:8px;border-radius:50%;background:var(--gold);flex:0 0 auto}
   .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
   .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;border-radius:999px;font-weight:700;text-decoration:none;font-size:16px;border:1px solid transparent}
@@ -247,9 +251,9 @@
         <div class="badges">
           <span class="badge"><span class="badge-dot"></span> Dade City, FL</span>
           <span class="badge"><span class="badge-dot"></span> Hablo español</span>
-          <span class="badge"><span class="badge-dot"></span> Serving Wesley Chapel · Zephyrhills · Pasco</span>
-          <span class="badge"><span class="badge-dot"></span> December custom slots now booking</span>
         </div>
+        <p class="serving">Serving the Tampa Bay Region and Central Florida</p>
+        <p class="booking">December custom slots now booking</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="mailto:hello@refinishedbyfranco.com?subject=Custom%20refinish%20quote%20request&body=Hi%20Frank%2C%0A%0AI%27d%20like%20a%20quote%20to%20refinish%20my%20piece.%20I%27ll%20attach%20photos%20(front%2C%20side%2C%20top%2C%20any%20damage)%20and%20measurements.%0A%0AThanks!">Get a Custom Quote</a>
           <a class="btn btn-secondary" href="#pricing">See Pricing</a>
@@ -482,7 +486,7 @@
           <figcaption>Meet the maker — Frannel, owner &amp; refinisher, with his son.</figcaption>
         </figure>
         <div>
-          <p style="font-size:18px;margin-top:0">Hi, I'm <strong>Frannel Franco</strong> — owner and refinisher behind Refinished by Franco. I refinish <strong>solid wood</strong> furniture by hand in Dade City, Florida, serving Wesley Chapel, Zephyrhills, and the wider Pasco area.</p>
+          <p style="font-size:18px;margin-top:0">Hi, I'm <strong>Frannel Franco</strong> — owner and refinisher behind Refinished by Franco. I refinish <strong>solid wood</strong> furniture by hand in Dade City, Florida. Serving the Tampa Bay Region and Central Florida.</p>
           <p style="color:var(--muted)">I focus on solid wood because it deserves a second life — it's built to last, it takes paint and stain beautifully, and it beats flat-pack furniture every time. Whether it's a dresser you already own and love, or a sturdy piece that just needs your color, my job is the same: careful prep, a smooth durable finish, and a piece you're proud to have back in your home.</p>
           <p style="color:var(--muted)"><em>“Old wood. New life. Your style.”</em> — that's not just a slogan. It's what happens in the shop every week.</p>
           <div class="badges">
